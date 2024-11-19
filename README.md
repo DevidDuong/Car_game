@@ -19,3 +19,4 @@ To install Pygame, run:
 pip install pygame
 
 
+## Installation
