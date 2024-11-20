@@ -86,7 +86,7 @@ def ai_control(player, vehicles):
     # Stay in the current lane if it's safe
     if lanes_status[current_lane]:
         return 0  # No movement needed
-
+  
     # Determine the nearest safe lane
     safe_lanes = [lane for lane in lanes if lanes_status[lane]]
     if safe_lanes:
